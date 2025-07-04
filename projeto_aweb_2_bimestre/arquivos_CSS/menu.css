@@ -1,0 +1,28 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#menu {
+    list-style: none;
+    padding: 0;
+    background-color: #001449;
+    justify-content: center;
+}
+
+#menu li{
+    display: inline;
+}
+
+#menu li a{
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 20px;
+    transition: background .3s;
+}
+
+#menu li a:hover {
+    background-color: #012677;
+}
