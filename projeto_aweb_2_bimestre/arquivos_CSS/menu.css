@@ -13,6 +13,7 @@
 
 #menu li{
     display: inline;
+    border-left: 2px solid #ffffff;
 }
 
 #menu li a{

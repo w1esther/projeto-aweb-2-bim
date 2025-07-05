@@ -17,3 +17,8 @@ h1 {
 .titulo {
     text-align: center;
 }
+
+p {
+    width: 1200px;
+    text-align: center;
+}
