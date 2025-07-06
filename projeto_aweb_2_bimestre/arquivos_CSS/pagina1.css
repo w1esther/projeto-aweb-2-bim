@@ -1,5 +1,5 @@
 body {
-    background-color: #d8d7d7;
+    background-color: #dbefff;
 }
 
 h1 {
@@ -7,6 +7,7 @@ h1 {
     margin: 30px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #1c3ed7;
+    border: 2px solid #0a1f44;
     border-radius: 20px;
     display: inline-block;
     text-align: center;
@@ -20,24 +21,32 @@ h1 {
 
 p {
     width: 1450px;
-    text-align: left;
+    text-align: justify;
     font-size: 20px;
+    margin-bottom: 25px;
+    line-height: 25px;
+    color: #0a1f44;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .img1 {
-    margin-left: 200px ;
+    margin-left: 100px ;
     border-radius: 20px;
-    margin-top: 30px;
+    margin-top: 25px;
     transition: transform 0.3s ease;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    border: 2px solid #0c0456;
 }
 
 img:hover {
-    transform: scale(1.3);
+    transform: scale(1.25);
 }
 
 .bordaimg1 {
     background-color: #1c3ed7;
-    width: 2000px;
+    width: 1500px;
     height: 250px;
+    border: 5px solid #0c0456;
+    border-radius: 15px;
 }
 
