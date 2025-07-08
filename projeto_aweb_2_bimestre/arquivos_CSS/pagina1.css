@@ -71,3 +71,26 @@ img:hover {
     border-radius: 15px;
 }
 
+.img_goldbach1 {
+    position: relative;
+    left: 50px;
+    top: 55px;
+    background-color: #1c3ed7;
+  
+}
+
+.p_riemann {
+    position: relative;
+    top: -100px;
+}
+
+.bordaimggoldbach {
+    background-color: #1c3ed7;
+    position: relative;
+    left: 650px;
+    top: -305px;
+    width: 400px;
+    height: 270px;
+    border: 5px solid #0c0456;
+    border-radius: 15px;
+}
