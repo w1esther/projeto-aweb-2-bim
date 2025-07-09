@@ -91,22 +91,29 @@ h1 {
 }
 
 .imgp3 {
-
+    position: absolute;
+    left: 900px;
+    top: 850px;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+    box-shadow: 4px 4px 10px rgba(20, 28, 144, 0.4);
 }
 
+.imgp31 {
+    position: absolute;
+    left: 1050px;
+    top: 1050px;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+    box-shadow: 4px 4px 10px rgba(20, 28, 144, 0.4);
+}
 
 img:hover {
     transform: scale(1.15);
 }
 
 
-.imgp3 {
-    position: relative;
-    left: 50px;
-    top: 55px;
-    background-color: #1c3ed7;
-  
-}
+
 
 .p4 {
     width: 900px;
@@ -132,7 +139,7 @@ img:hover {
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: relative;
     right: 350px;
-    top: 780px ;
+    top: 980px ;
 }
 
 .p6 {
