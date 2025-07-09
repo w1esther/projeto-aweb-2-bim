@@ -1,3 +1,7 @@
+/* * {
+    border: 1px solid red;
+} */
+
 body {
     background-color: #dbefff;
 }
@@ -7,71 +11,96 @@ h1 {
     margin: 30px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #1c3ed7;
-    border: 2px solid #0a1f44;
     border-radius: 20px;
     display: inline-block;
-    text-align: center;
-    padding: 20px;
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    padding: 20px; /*do texto para a borda*/
+    box-shadow: 4px 4px 10px rgba(11, 8, 77, 0.4);
 }
 
 .titulo {
     text-align: center;
 }
 
-p {
-    width: 1450px;
+.p1 {
+    width: 700px;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 25px;
+    color: #0a1f44;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    right: 350px;
+}
+
+.imgp1 {
+    position: absolute;
+    left: 850px;
+    top: 220px;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+    box-shadow: 4px 4px 10px rgba(5, 14, 83, 0.4);
+}
+
+.p2 {
+    width: 900px;
     text-align: justify;
     font-size: 20px;
     margin-bottom: 25px;
     line-height: 25px;
     color: #0a1f44;
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.goldbach {
-    width: 650px;
-    margin-bottom: 100px;
-    margin-top: 100px;
-    margin-left: 30px;
-}
-
-.img1 {
-    margin-left: 150px ;
-    border-radius: 20px;
-    margin-top: 25px;
-    transition: transform 0.3s ease;
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
-    border: 2px solid #0c0456;
+    position: absolute;
+    left: 650px;
+    padding: 100px;
 }
 
 .img2 {
+    position: absolute;
+    top: 200px;
     margin-left: 1100px;
     margin-top: -900px;
     position: relative;
-    top: -55px;
+    top: 350px;
     width: 200px;
-    height: 170px;
+    left: -700px;
     border-radius: 20px;
     transition: transform 0.3s ease;
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
-    border: 2px solid #0c0456;
+    box-shadow: 4px 4px 10px rgba(20, 28, 144, 0.4);
+}
+
+.img3 {
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+    box-shadow: 4px 4px 10px rgba(7, 29, 135, 0.4);
+    position: absolute;
+    top: 500px;
+    left: 100px;
+}
+
+.p3 {
+    width: 700px;
+    text-align: justify;
+    font-size: 20px;
+    margin-bottom: 25px;
+    line-height: 25px;
+    color: #0a1f44;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    right: 350px;
+    top: 480px ;
+}
+
+.imgp3 {
+
 }
 
 
 img:hover {
-    transform: scale(1.25);
+    transform: scale(1.15);
 }
 
-.bordaimg1 {
-    background-color: #1c3ed7;
-    width: 1500px;
-    height: 250px;
-    border: 5px solid #0c0456;
-    border-radius: 15px;
-}
 
-.img_goldbach1 {
+.imgp3 {
     position: relative;
     left: 50px;
     top: 55px;
@@ -79,9 +108,45 @@ img:hover {
   
 }
 
-.p_riemann {
+.p4 {
+    width: 900px;
+    text-align: justify;
+    font-size: 20px;
+    margin-bottom: 25px;
+    line-height: 25px;
+    color: #0a1f44;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    left: 650px;
+    padding: 100px;
+    top: 1240px;
+}
+
+.p5 {
+    width: 700px;
+    text-align: justify;
+    font-size: 20px;
+    margin-bottom: 25px;
+    line-height: 25px;
+    color: #0a1f44;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     position: relative;
-    top: -100px;
+    right: 350px;
+    top: 780px ;
+}
+
+.p6 {
+    width: 900px;
+    text-align: justify;
+    font-size: 20px;
+    margin-bottom: 25px;
+    line-height: 25px;
+    color: #0a1f44;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    left: 650px;
+    padding: 100px;
+    top: 1900px;
 }
 
 .bordaimggoldbach {
