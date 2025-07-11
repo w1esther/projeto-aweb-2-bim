@@ -163,7 +163,7 @@ img:hover {
 
 .imgp51 {
     position: relative;
-    top: 750px;
+    top: 650px;
     left: 1000px;
     border-radius: 20px;
     transition: transform 0.3s ease;
@@ -181,7 +181,7 @@ img:hover {
     position: absolute;
     left: 650px;
     padding: 100px;
-    top: 2200px;
+    top: 2000px;
 }
 
 .bordaimggoldbach {
