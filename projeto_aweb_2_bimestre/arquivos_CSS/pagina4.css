@@ -1,5 +1,6 @@
 body {
-    background-color:  #dbefff;
+    background-image: linear-gradient(90deg, #4b9bf6, #a9defd);
+    overflow-x: hidden;
 }
 
 #titulo {

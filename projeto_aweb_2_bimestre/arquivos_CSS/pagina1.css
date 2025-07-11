@@ -130,6 +130,24 @@ img:hover {
     top: 1240px;
 }
 
+.imgp41 {
+    position: relative;
+    top: 500px;
+    left: 100px;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+    box-shadow: 4px 4px 10px rgba(20, 28, 144, 0.4);
+}
+
+.imgp42 {
+    position: relative;
+    top: 750px;
+    left: 100px;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+    box-shadow: 4px 4px 10px rgba(20, 28, 144, 0.4);
+}
+
 .p5 {
     width: 700px;
     text-align: justify;
@@ -143,6 +161,15 @@ img:hover {
     top: 980px ;
 }
 
+.imgp51 {
+    position: relative;
+    top: 750px;
+    left: 1000px;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+    box-shadow: 4px 4px 10px rgba(20, 28, 144, 0.4);
+}
+
 .p6 {
     width: 900px;
     text-align: justify;
@@ -154,7 +181,7 @@ img:hover {
     position: absolute;
     left: 650px;
     padding: 100px;
-    top: 1900px;
+    top: 2200px;
 }
 
 .bordaimggoldbach {
