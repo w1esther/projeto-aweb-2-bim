@@ -202,3 +202,33 @@ img:hover {
     border: 5px solid #0c0456;
     border-radius: 15px;
 }
+
+/* parte referente à página da conjectura de goldbach */
+
+.imgp2 {
+    position: relative;
+    margin-left: 1200px;
+    margin-top: -800px;
+    position: relative;
+    top: 270px;
+    width: 200px;
+    left: -850px;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+    box-shadow: 4px 4px 10px rgba(20, 28, 144, 0.4);
+}
+
+.tabela1 {
+    position: relative;
+    top: 400px;
+    border: 5px solid #0a1f44;
+    width: 750px;
+    font-size: 30px;
+    border-collapse: collapse;
+}
+
+tr, td, th {
+    border: 5px solid #0a1f44;
+    border-collapse: collapse;
+    text-align: center;
+}
