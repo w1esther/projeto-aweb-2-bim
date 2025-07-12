@@ -43,10 +43,9 @@ h1 {
 }
 
 .p2 {
-    width: 900px;
+    width: 800px;
     text-align: justify;
     font-size: 20px;
-    margin-bottom: 25px;
     line-height: 25px;
     color: #0a1f44;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -117,10 +116,9 @@ img:hover {
 
 
 .p4 {
-    width: 900px;
+    width: 800px;
     text-align: justify;
     font-size: 20px;
-    margin-bottom: 25px;
     line-height: 25px;
     color: #0a1f44;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -158,7 +156,7 @@ img:hover {
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: relative;
     right: 350px;
-    top: 980px ;
+    top: 880px ;
 }
 
 .imgp51 {
@@ -171,10 +169,9 @@ img:hover {
 }
 
 .p6 {
-    width: 900px;
+    width: 850px;
     text-align: justify;
     font-size: 20px;
-    margin-bottom: 25px;
     line-height: 25px;
     color: #0a1f44;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -183,6 +180,17 @@ img:hover {
     padding: 100px;
     top: 2000px;
 }
+
+.imgp6 {
+    height: 200px;
+    width: 250px;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+    box-shadow: 4px 4px 10px rgba(20, 28, 144, 0.4);
+    position: relative;
+    top: 800px;
+    left: 200px;
+} 
 
 .bordaimggoldbach {
     background-color: #1c3ed7;
