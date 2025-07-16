@@ -38,6 +38,7 @@ h1 {
     left: 850px;
     top: 220px;
     border-radius: 20px;
+    border: 10px solid #1c3ed7;
     transition: transform 0.3s ease;
     box-shadow: 4px 4px 10px rgba(5, 14, 83, 0.4);
 }
@@ -64,12 +65,14 @@ h1 {
     width: 200px;
     left: -700px;
     border-radius: 20px;
+    border: 10px solid #1c3ed7;
     transition: transform 0.3s ease;
     box-shadow: 4px 4px 10px rgba(20, 28, 144, 0.4);
 }
 
 .img3 {
     border-radius: 20px;
+    border: 10px solid #1c3ed7;
     transition: transform 0.3s ease;
     box-shadow: 4px 4px 10px rgba(7, 29, 135, 0.4);
     position: absolute;
@@ -95,6 +98,7 @@ h1 {
     left: 900px;
     top: 850px;
     border-radius: 20px;
+    border: 10px solid #1c3ed7;
     transition: transform 0.3s ease;
     box-shadow: 4px 4px 10px rgba(20, 28, 144, 0.4);
 }
@@ -104,6 +108,7 @@ h1 {
     left: 1050px;
     top: 1050px;
     border-radius: 20px;
+    border: 10px solid #1c3ed7;
     transition: transform 0.3s ease;
     box-shadow: 4px 4px 10px rgba(20, 28, 144, 0.4);
 }
@@ -133,6 +138,7 @@ img:hover {
     top: 500px;
     left: 100px;
     border-radius: 20px;
+    border: 10px solid #1c3ed7;
     transition: transform 0.3s ease;
     box-shadow: 4px 4px 10px rgba(20, 28, 144, 0.4);
 }
@@ -142,6 +148,7 @@ img:hover {
     top: 750px;
     left: 100px;
     border-radius: 20px;
+    border: 10px solid #1c3ed7;
     transition: transform 0.3s ease;
     box-shadow: 4px 4px 10px rgba(20, 28, 144, 0.4);
 }
@@ -164,6 +171,7 @@ img:hover {
     top: 650px;
     left: 1000px;
     border-radius: 20px;
+    border: 10px solid #1c3ed7;
     transition: transform 0.3s ease;
     box-shadow: 4px 4px 10px rgba(20, 28, 144, 0.4);
 }
@@ -185,23 +193,13 @@ img:hover {
     height: 200px;
     width: 250px;
     border-radius: 20px;
+    border: 10px solid #1c3ed7;
     transition: transform 0.3s ease;
     box-shadow: 4px 4px 10px rgba(20, 28, 144, 0.4);
     position: relative;
     top: 800px;
     left: 200px;
 } 
-
-.bordaimggoldbach {
-    background-color: #1c3ed7;
-    position: relative;
-    left: 650px;
-    top: -305px;
-    width: 400px;
-    height: 270px;
-    border: 5px solid #0c0456;
-    border-radius: 15px;
-}
 
 /* parte referente à página da conjectura de goldbach */
 
@@ -210,10 +208,25 @@ img:hover {
     margin-left: 1200px;
     margin-top: -800px;
     position: relative;
-    top: 270px;
+    top: 330px;
     width: 200px;
     left: -850px;
     border-radius: 20px;
+    border: 10px solid #1c3ed7;
+    transition: transform 0.3s ease;
+    box-shadow: 4px 4px 10px rgba(20, 28, 144, 0.4);
+}
+
+.imgp21 {
+    position: relative;
+    margin-left: 1200px;
+    margin-top: -800px;
+    position: relative;
+    top: 180px;
+    width: 200px;
+    right: 1100px;
+    border-radius: 20px;
+    border: 10px solid #1c3ed7;
     transition: transform 0.3s ease;
     box-shadow: 4px 4px 10px rgba(20, 28, 144, 0.4);
 }
@@ -221,14 +234,66 @@ img:hover {
 .tabela1 {
     position: relative;
     top: 400px;
-    border: 5px solid #0a1f44;
+    border: 2px solid #0a1f44;
     width: 750px;
     font-size: 30px;
+    box-shadow: 4px 4px 10px rgba(20, 28, 144, 0.4);
+}
+
+table {
     border-collapse: collapse;
 }
 
 tr, td, th {
     border: 5px solid #0a1f44;
-    border-collapse: collapse;
     text-align: center;
+}
+
+.p4g {
+    width: 800px;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 25px;
+    color: #0a1f44;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    left: 650px;
+    padding: 100px;
+    top: 1440px;
+}
+
+.imgharald {
+    height: 200px;
+    width: 300px;
+    position: relative;
+    margin-left: 200px;
+    margin-top: -800px;
+    position: relative;
+    top: 730px;
+    border-radius: 20px;
+    border: 10px solid #1c3ed7;
+    transition: transform 0.3s ease;
+    box-shadow: 4px 4px 10px rgba(20, 28, 144, 0.4);
+}
+
+.tabela2 {
+    position: relative;
+    top: 850px;
+    border: 2px solid #0a1f44;
+    width: 750px;
+    font-size: 30px;
+    box-shadow: 4px 4px 10px rgba(20, 28, 144, 0.4);
+}
+
+.p5g {
+    width: 700px;
+    text-align: justify;
+    font-size: 20px;
+    margin-bottom: 25px;
+    line-height: 25px;
+    color: #0a1f44;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    right: 350px;
+    top: 900px;
 }
