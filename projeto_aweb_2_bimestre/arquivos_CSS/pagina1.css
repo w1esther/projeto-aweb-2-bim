@@ -234,7 +234,7 @@ img:hover {
 .tabela1 {
     position: relative;
     top: 400px;
-    border: 2px solid #0a1f44;
+    border: 2px solid #376dc9;
     width: 750px;
     font-size: 30px;
     box-shadow: 4px 4px 10px rgba(20, 28, 144, 0.4);
@@ -245,7 +245,7 @@ table {
 }
 
 tr, td, th {
-    border: 5px solid #0a1f44;
+    border: 5px solid #1151bd;
     text-align: center;
 }
 
@@ -279,7 +279,7 @@ tr, td, th {
 .tabela2 {
     position: relative;
     top: 850px;
-    border: 2px solid #0a1f44;
+    border: 2px solid #1151bd;
     width: 750px;
     font-size: 30px;
     box-shadow: 4px 4px 10px rgba(20, 28, 144, 0.4);
@@ -296,4 +296,18 @@ tr, td, th {
     position: relative;
     right: 350px;
     top: 900px;
+}
+
+/* parte referente à página da hipótese de riemann */
+
+#p5r {
+    position: relative;
+    top: 1000px;
+}
+
+#zeta {
+    width: 300px;
+    left: 1100px;
+    position: relative;
+    top: 20px;
 }
