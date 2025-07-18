@@ -203,6 +203,11 @@ img:hover {
 
 /* parte referente à página da conjectura de goldbach */
 
+#conjectura {
+    height: 220px;
+    width: 400px;
+}
+
 .imgp2 {
     position: relative;
     margin-left: 1200px;
@@ -247,6 +252,12 @@ table {
 tr, td, th {
     border: 5px solid #1151bd;
     text-align: center;
+}
+
+#terminal {
+    height: 250px;
+    position: relative;
+    top: 250px;
 }
 
 .p4g {
@@ -309,5 +320,37 @@ tr, td, th {
     width: 300px;
     left: 1100px;
     position: relative;
-    top: 20px;
+    top: 10px;
+}
+
+#primos {
+    height: 300px;
+    width: 400px;
+    position: relative;
+    left: -900px;
+}
+
+#fisica {
+    height: 150px;
+    position: relative;
+    left: 900px;
+}
+
+#seguranca {
+    width: 200px;
+    position: relative;
+    top: 800px;
+}
+
+#estatistica {
+    position: relative;
+    top: 950px;
+    height: 150px;
+    left: 500px;
+}
+
+#problema {
+    position: relative;
+    top: 1600px;
+    left: 1200px;
 }
