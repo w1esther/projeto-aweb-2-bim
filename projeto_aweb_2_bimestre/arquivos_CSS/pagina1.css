@@ -58,11 +58,12 @@ h1 {
 .img2 {
     position: absolute;
     top: 200px;
-    margin-left: 1100px;
+    margin-left: 1150px;
     margin-top: -900px;
     position: relative;
     top: 350px;
     width: 200px;
+    height: 200px;
     left: -700px;
     border-radius: 20px;
     border: 10px solid #1c3ed7;
@@ -190,14 +191,14 @@ img:hover {
 }
 
 .imgp6 {
-    height: 200px;
-    width: 250px;
+    height: 300px;
+    width: 350px;
     border-radius: 20px;
     border: 10px solid #1c3ed7;
     transition: transform 0.3s ease;
     box-shadow: 4px 4px 10px rgba(20, 28, 144, 0.4);
     position: relative;
-    top: 800px;
+    top: 750px;
     left: 200px;
 } 
 
@@ -270,17 +271,16 @@ tr, td, th {
     position: absolute;
     left: 650px;
     padding: 100px;
-    top: 1440px;
+    top: 1480px;
 }
 
 .imgharald {
     height: 200px;
     width: 300px;
     position: relative;
-    margin-left: 200px;
-    margin-top: -800px;
+    margin-left: -150px;
     position: relative;
-    top: 730px;
+    top: 560px;
     border-radius: 20px;
     border: 10px solid #1c3ed7;
     transition: transform 0.3s ease;
@@ -289,7 +289,7 @@ tr, td, th {
 
 .tabela2 {
     position: relative;
-    top: 850px;
+    top: 700px;
     border: 2px solid #1151bd;
     width: 750px;
     font-size: 30px;
@@ -306,7 +306,7 @@ tr, td, th {
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: relative;
     right: 350px;
-    top: 900px;
+    top: 750px;
 }
 
 /* parte referente à página da hipótese de riemann */
@@ -344,13 +344,19 @@ tr, td, th {
 
 #estatistica {
     position: relative;
-    top: 950px;
+    top: 920px;
     height: 150px;
     left: 500px;
 }
 
 #problema {
     position: relative;
-    top: 1600px;
-    left: 1200px;
+    top: 650px;
+    left: 250px;
+}
+
+#p6r {
+    position: relative;
+    top: 1000px;
+    left: 300px;
 }
