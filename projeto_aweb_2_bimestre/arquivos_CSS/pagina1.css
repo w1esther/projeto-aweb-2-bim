@@ -313,7 +313,7 @@ tr, td, th {
 
 #p5r {
     position: relative;
-    top: 1000px;
+    top: 800px;
 }
 
 #zeta {
@@ -334,29 +334,65 @@ tr, td, th {
     height: 150px;
     position: relative;
     left: 900px;
+    top: 500px;
 }
 
 #seguranca {
     width: 200px;
     position: relative;
-    top: 800px;
+    top: 650px;
 }
 
 #estatistica {
     position: relative;
-    top: 920px;
+    top: 820px;
     height: 150px;
     left: 500px;
 }
 
 #problema {
     position: relative;
-    top: 650px;
+    top: 550px;
     left: 250px;
 }
 
 #p6r {
     position: relative;
-    top: 1000px;
+    top: 900px;
     left: 300px;
+}
+
+#exemplo_1 {
+    height: 300px;
+    position: relative;
+    top: 150px;
+}
+
+#exemplo_2 {
+    height: 300px;
+    left: -300px;
+}
+
+/* parte referente à página da conjectura dos primos gêmeos */
+
+#p3pg {
+    position: relative;
+    top: 600px;
+} 
+
+#viggo {
+    position: relative;
+    top: 400px;
+}
+
+#project {
+    position: relative;
+    top: 250px;
+    left: 600px;
+}
+
+#yitang {
+    position: relative;
+    top: 300px;
+    left: 1150px;
 }
