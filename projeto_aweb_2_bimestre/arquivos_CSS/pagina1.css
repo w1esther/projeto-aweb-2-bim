@@ -387,12 +387,27 @@ tr, td, th {
 
 #project {
     position: relative;
-    top: 250px;
+    top: 200px;
     left: 600px;
 }
 
 #yitang {
     position: relative;
-    top: 300px;
+    top: 250px;
     left: 1150px;
+}
+
+#pg {
+    height: 350px;
+    width: 250px;
+    position: relative;
+    top: 650px;
+    left: -200px;
+}
+
+/* parte referente à página dos números primos:  */
+
+#p3p {
+    position: relative;
+    top: 550px;
 }
