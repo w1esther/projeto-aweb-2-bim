@@ -404,7 +404,35 @@ tr, td, th {
 
 /* parte referente à página dos números primos:  */
 
+#p1p {
+    position: relative;
+    top: 30px;
+}
+
 #p3p {
     position: relative;
-    top: 550px;
+    top: 520px;
+}
+
+#m1 {
+    position: relative;
+    top: 600px;
+}
+
+#m2 {
+    position: relative;
+    top: 800px;
+}
+
+#primos1 {
+    height: 250px;
+    width: 400px;
+}
+
+#euclides {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left: -900px;
+    top: 400px;
 }
