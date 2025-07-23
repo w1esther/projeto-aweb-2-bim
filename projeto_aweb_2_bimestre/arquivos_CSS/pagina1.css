@@ -306,6 +306,18 @@ tr, td, th {
     top: 750px;
 }
 
+.video_goldbach {
+    height: 250px;
+    width: 300px;
+    box-shadow: 4px 4px 10px rgba(20, 28, 144, 0.4);
+    position: relative;
+    top: 450px;
+    left: 900px;
+}
+
+video:hover {
+    transform: scale(1.25);
+}
 /* parte referente à página da hipótese de riemann */
 
 #p5r {
