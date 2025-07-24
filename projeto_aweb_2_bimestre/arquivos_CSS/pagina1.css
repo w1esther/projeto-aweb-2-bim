@@ -510,9 +510,20 @@ video:hover {
 .botao_teste {
     position: relative;
     top: 250px;
-    text-align: center;
+    left: 300px;
+}
+
+button {
+    color: rgb(4, 22, 75);
+    background-color: #378afe;
+    height: 40px;
+    width: 300px;
+}
+
+button:hover {
+    background-color: #1151bd;
 }
 
 input {
-    color: #1151bd;
+    color: #5e96f8;
 }
