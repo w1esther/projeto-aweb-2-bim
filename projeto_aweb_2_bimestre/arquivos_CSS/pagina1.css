@@ -307,12 +307,15 @@ tr, td, th {
 }
 
 .video_goldbach {
-    height: 250px;
+    height: 170px;
     width: 300px;
     box-shadow: 4px 4px 10px rgba(20, 28, 144, 0.4);
     position: relative;
-    top: 450px;
+    top: 480px;
     left: 900px;
+    border-radius: 20px;
+    border: 10px solid #1c3ed7;
+    transition: transform 0.3s ease;
 }
 
 video:hover {
