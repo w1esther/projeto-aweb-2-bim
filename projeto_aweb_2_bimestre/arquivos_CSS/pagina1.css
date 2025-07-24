@@ -431,12 +431,14 @@ video:hover {
 
 #m1 {
     position: relative;
-    top: 600px;
+    top: 550px;
+    left: -250px;
 }
 
 #m2 {
     position: relative;
-    top: 800px;
+    top: 750px;
+    left: -250px;
 }
 
 #primos1 {
@@ -450,4 +452,67 @@ video:hover {
     position: relative;
     left: -900px;
     top: 400px;
+}
+
+#criptografia {
+    position: relative;
+    top: 870px;
+    left: -100px;
+}
+
+#fatoracao {
+    position: relative;
+    top: 470px;
+}
+
+#reta {
+    height: 250px;
+    width: 350px;
+    position: relative;
+    top: 230px;
+    left: 900px;
+}
+
+#p6c {
+    position: absolute;
+    top: 2100px;
+}
+
+/* parte referente à página do teste:  */
+
+.teste {
+    font-size: 25px;
+    color: #0a1f44;
+    position: relative;
+    left: 150px;
+}
+
+.teste_goldbach {
+    position: relative;
+    top: 50px;
+}
+
+.teste_riemann {
+    position: relative;
+    top: 100px;
+}
+
+.teste_gemeos {
+    position: relative;
+    top: 150px;
+}
+
+.teste_desafios {
+    position: relative;
+    top: 200px;
+}
+
+.botao_teste {
+    position: relative;
+    top: 250px;
+    text-align: center;
+}
+
+input {
+    color: #1151bd;
 }

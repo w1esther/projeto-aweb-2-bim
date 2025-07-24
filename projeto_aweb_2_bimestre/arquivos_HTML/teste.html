@@ -21,50 +21,73 @@
     <header class="titulo">
         <h1>TESTE DE CONHECIMENTOS SOBRE OS GRANDES DESAFIOS MATEMÁTICOS</h1>
     </header>
-    <div>
-        <label>A Conjectura de Goldbach, formulada no século XVIII, trata de:</label>
-        <br>
-        <input type="radio" name="goldbach"> <label>A distribuição dos números primos entre os números quadrados.</label>
-        <br>
-        <input type="radio" name="goldbach"> <label for="">A soma de dois números primos sempre ser ímpar.</label>
-        <br>
-        <input type="radio" name="goldbach"> <label for=""> A possibilidade de todo número par maior que 2 ser escrito como soma de dois primos.</label>
-        <br>
-        <input type="radio" name="goldbach" id=""> <label for=""> A multiplicação de dois primos resultar sempre em um número primo.</label>
-        <br>
-        <label for="">A Hipótese de Riemann, ainda não resolvida, está relacionada diretamente:</label>
-        <br>
-        <input type="radio" name="reimann" id=""> <label for="">À demonstração da infinitude dos números primos.</label>
-        <br>
-        <input type="radio" name="reimann"> <label for="">Ao comportamento da função fatorial em números complexos.</label>
-        <br>
-        <input type="radio" name="reimann"> <label for="">À localização dos zeros não triviais da função zeta de Riemann.</label>
-        <br>
-        <input type="radio" name="reimann"> <label for=""> À possibilidade de representar primos como soma de quadrados.</label>
-        <br>
-        <label for="">A Conjectura dos Primos Gêmeos afirma que:</label>
-        <br>
-        <input type="radio" name="gemeos"> <label for="">Existem apenas infinitos pares de primos com distância de dois.</label>
-        <br>
-        <input type="radio" name="gemeos"> <label for="">Todo número primo tem um primo gêmeo.</label>
-        <br>
-        <input type="radio" name="gemeos" id=""> <label for="">Existem infinitos pares de primos cuja diferença é igual a 2.</label>
-        <br>
-        <input type="radio" name="gemeos"> <label for=""> Os primos gêmeos são todos múltiplos de 6 mais ou menos 1.</label>
-        <br>
-        <label for="">Qual das alternativas melhor descreve o que as três conjecturas (Goldbach, Riemann e Primos Gêmeos) têm em comum?</label>
-        <br>
-        <input type="radio" name="desafios"> <label for="">Todas já foram provadas no século XX.</label>
-        <br>
-        <input type="radio" name="desafios"> <label for="">Todas são hipóteses resolvidas por meio de computação algorítmica.</label>
-        <br>
-        <input type="radio" name="desafios"> <label for="">Todas permanecem como problemas abertos na matemática.</label>
-        <br>
-        <input type="radio" name="desafios"> <label for="">Todas envolvem exclusivamente números pares.</label>
-        <br>
-        <button type="submit" name="enviar">ENIVIAR RESPOSTAS</button>
-        <button type="reset" name="limpar">LIMPAR</button>
+    <form action="">
+        <div class="teste">
 
-    </div> 
+            <div class="teste_goldbach">
+            <label>A Conjectura de Goldbach, formulada no século XVIII, trata de:</label>
+            <br>
+            <br>
+            <input type="radio" name="goldbach"> <label>A distribuição dos números primos entre os números quadrados.</label>
+            <br>
+            <input type="radio" name="goldbach"> <label for="">A soma de dois números primos sempre ser ímpar.</label>
+            <br>
+            <input type="radio" name="goldbach"> <label for=""> A possibilidade de todo número par maior que 2 ser escrito como soma de dois primos.</label>
+            <br>
+            <input type="radio" name="goldbach" id=""> <label for=""> A multiplicação de dois primos resultar sempre em um número primo.</label>
+            </div>
+
+            <br>
+
+            <div class="teste_riemann">
+            <label for="">A Hipótese de Riemann, ainda não resolvida, está relacionada diretamente:</label>
+            <br>
+            <br>
+            <input type="radio" name="reimann" id=""> <label for="">À demonstração da infinitude dos números primos.</label>
+            <br>
+            <input type="radio" name="reimann"> <label for="">Ao comportamento da função fatorial em números complexos.</label>
+            <br>
+            <input type="radio" name="reimann"> <label for="">À localização dos zeros não triviais da função zeta de Riemann.</label>
+            <br>
+            <input type="radio" name="reimann"> <label for=""> À possibilidade de representar primos como soma de quadrados.</label>
+            </div>
+            <br>
+            
+            <div class="teste_gemeos">
+            <label for="">A Conjectura dos Primos Gêmeos afirma que:</label>
+            <br>
+            <br>
+            <input type="radio" name="gemeos"> <label for="">Existem apenas infinitos pares de primos com distância de dois.</label>
+            <br>
+            <input type="radio" name="gemeos"> <label for="">Todo número primo tem um primo gêmeo.</label>
+            <br>
+            <input type="radio" name="gemeos" id=""> <label for="">Existem infinitos pares de primos cuja diferença é igual a 2.</label>
+            <br>
+            <input type="radio" name="gemeos"> <label for=""> Os primos gêmeos são todos múltiplos de 6 mais ou menos 1.</label>
+            </div>
+            <br>
+
+            <div class="teste_desafios">
+            <label for="">Qual das alternativas melhor descreve o que as três conjecturas (Goldbach, Riemann e Primos Gêmeos) têm em comum?</label>
+            <br>
+            <br>
+
+            <input type="radio" name="desafios"> <label for="">Todas já foram provadas no século XX.</label>
+            <br>
+            <input type="radio" name="desafios"> <label for="">Todas são hipóteses resolvidas por meio de computação algorítmica.</label>
+            <br>
+            <input type="radio" name="desafios"> <label for="">Todas permanecem como problemas abertos na matemática.</label>
+            <br>
+            <input type="radio" name="desafios"> <label for="">Todas envolvem exclusivamente números pares.</label>
+            </div>
+            <br>
+
+            <div class="botao_teste">
+            <button type="submit" name="enviar" value="enviar">ENIVIAR RESPOSTAS</button>
+            <button type="reset" name="limpar" value="limpar">LIMPAR</button>
+            </div>
+
+        </div> 
+    </form>
 </body>
 </html>
