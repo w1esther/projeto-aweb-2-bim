@@ -1,43 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../arquivos_CSS/menu.css">
-    <link rel="stylesheet" href="../arquivos_CSS/pagina1.css">
+    <link rel="stylesheet" href="/static/css/menu.css">
+    <link rel="stylesheet" href="/static/css/pagina1.css">
     <title>Teste de conhecimentos</title>
 </head>
 <body>
     <nav id="menu">
         <ul>
-            <li><a href="index.html">Página Inicial </a></li>
-            <li> <a href="goldbach.html">A conjectura de Goldbach</a></li>
-            <li><a href="reimann.html">A hipótese de Riemann</a></li>
-            <li><a href="twinprimes.html">A conjectura de Twin Primes</a></li>
-            <li><a href="primos.html">Os números primos</a></li>
-            <li><a href="teste.html">Teste de conhecimentos</a></li>
+            <li><a href="../arquivos_HTML/index.html">Página Inicial </a></li>
+            <li> <a href="../arquivos_HTML/goldbach.html">A conjectura de Goldbach</a></li>
+            <li><a href="../arquivos_HTML/reimann.html">A hipótese de Riemann</a></li>
+            <li><a href="../arquivos_HTML/twinprimes.html">A conjectura de Twin Primes</a></li>
+            <li><a href="../arquivos_HTML/primos.html">Os números primos</a></li>
+            <li><a href="../templates/teste.html">Teste de conhecimentos</a></li>
         </ul>
     </nav>
     <header class="titulo">
         <h1>TESTE DE CONHECIMENTOS SOBRE OS GRANDES DESAFIOS MATEMÁTICOS</h1>
     </header>
-    <form action="../arquivos_python/correcao.py" method="post">
+    <form action="/corrigir" method="post">
         <div class="teste">
 
             <div class="teste_goldbach">
             <label>01 - A Conjectura de Goldbach, formulada no século XVIII, trata de:</label>
             <br>
             <br>
-            <input type="radio" name="goldbach" id="a1"> 
+            <input type="radio" name="goldbach" id="a1" value="a"> 
             <label for="a1">A distribuição dos números primos entre os números quadrados.</label>
             <br>
-            <input type="radio" name="goldbach" id="b1"> 
+            <input type="radio" name="goldbach" id="b1" value="b"> 
             <label for="b1">A soma de dois números primos sempre ser ímpar.</label>
             <br>
-            <input type="radio" name="goldbach" id="c1"> 
+            <input type="radio" name="goldbach" id="c1" value="c"> 
             <label for="c1"> A possibilidade de todo número par maior que 2 ser escrito como soma de dois primos.</label>
             <br>
-            <input type="radio" name="goldbach" id="d1"> 
+            <input type="radio" name="goldbach" id="d1" value="d"> 
             <label for="d1"> A multiplicação de dois primos resultar sempre em um número primo.</label>
             </div>
 
@@ -47,16 +47,16 @@
             <label for="">02 - A Hipótese de Riemann, ainda não resolvida, está relacionada diretamente:</label>
             <br>
             <br>
-            <input type="radio" name="reimann" id="a2"> 
+            <input type="radio" name="reimann" id="a2" value="a"> 
             <label for="a2">À demonstração da infinitude dos números primos.</label>
             <br>
-            <input type="radio" name="reimann" id="b2"> 
+            <input type="radio" name="reimann" id="b2" value="b"> 
             <label for="b2">Ao comportamento da função fatorial em números complexos.</label>
             <br>
-            <input type="radio" name="reimann" id="c2"> 
+            <input type="radio" name="reimann" id="c2" value="c"> 
             <label for="c2">À localização dos zeros não triviais da função zeta de Riemann.</label>
             <br>
-            <input type="radio" name="reimann" id="d2"> 
+            <input type="radio" name="reimann" id="d2" value="d"> 
             <label for="d2"> À possibilidade de representar primos como soma de quadrados.</label>
             </div>
             <br>
@@ -65,16 +65,16 @@
             <label for="">03 - A Conjectura dos Primos Gêmeos afirma que:</label>
             <br>
             <br>
-            <input type="radio" name="gemeos" id="a3"> 
-            <label for="a3">Existem apenas infinitos pares de primos com distância de dois.</label>
+            <input type="radio" name="gemeos" id="a3" value="a"> 
+            <label for="a3">Existem apenas finitos pares de primos com distância de dois.</label>
             <br>
-            <input type="radio" name="gemeos" id="b3"> 
+            <input type="radio" name="gemeos" id="b3" value="b"> 
             <label for="b3">Todo número primo tem um primo gêmeo.</label>
             <br>
-            <input type="radio" name="gemeos" id="c3"> 
+            <input type="radio" name="gemeos" id="c3" value="c"> 
             <label for="c3">Existem infinitos pares de primos cuja diferença é igual a 2.</label>
             <br>
-            <input type="radio" name="gemeos" id="d3"> 
+            <input type="radio" name="gemeos" id="d3" value="d"> 
             <label for="d3"> Os primos gêmeos são todos múltiplos de 6 mais ou menos 1.</label>
             </div>
             <br>
@@ -84,22 +84,22 @@
             <br>
             <br>
 
-            <input type="radio" name="desafios" id="a4"> 
+            <input type="radio" name="desafios" id="a4" value="a"> 
             <label for="a4">Todas já foram provadas no século XX.</label>
             <br>
-            <input type="radio" name="desafios" id="b4">
+            <input type="radio" name="desafios" id="b4" value="b">
             <label for="b4">Todas são hipóteses resolvidas por meio de computação algorítmica.</label>
             <br>
-            <input type="radio" name="desafios" id="c4"> 
+            <input type="radio" name="desafios" id="c4" value="c"> 
             <label for="c4">Todas permanecem como problemas abertos na matemática.</label>
             <br>
-            <input type="radio" name="desafios" id="d4"> 
+            <input type="radio" name="desafios" id="d4" value="d"> 
             <label for="d4">Todas envolvem exclusivamente números pares.</label>
             </div>
             <br>
 
             <div class="botao_teste">
-            <button type="submit" name="enviar" value="enviar">ENIVIAR RESPOSTAS</button>
+            <button type="submit" name="enviar" value="enviar">ENVIAR RESPOSTAS</button>
             <button type="reset" name="limpar" value="limpar">LIMPAR</button>
             </div>
             <br>

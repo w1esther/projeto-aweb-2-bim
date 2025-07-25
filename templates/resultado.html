@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado do teste</title>
+</head>
+<body>
+    <h1>RESULTADO TESTE DE CONHECIMENTOS</h1>
+    <p>Você acertou {{ total }} de {{ resultado|length }} questões.
+    </p>
+
+    <ul>
+    {% for q, info in resultado.items() %}
+      <li>
+        Questão {{ q }} — sua resposta: {{ info.resposta_usuario }} —
+        {% if info.acertou %}
+          <strong style="color:green">Correta</strong>
+        {% else %}
+          <strong style="color:red">Errada</strong>. Gabarito: {{ info.correta }}
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+
+  <a href="/">Refazer</a>
+</body>
+</html>
