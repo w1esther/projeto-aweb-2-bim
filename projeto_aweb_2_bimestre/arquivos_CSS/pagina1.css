@@ -307,11 +307,11 @@ tr, td, th {
 }
 
 .video_goldbach {
-    height: 170px;
-    width: 300px;
+    height: 270px;
+    width: 465px;
     box-shadow: 4px 4px 10px rgba(20, 28, 144, 0.4);
     position: relative;
-    top: 480px;
+    top: 450px;
     left: 900px;
     border-radius: 20px;
     border: 10px solid #1c3ed7;
@@ -487,24 +487,65 @@ video:hover {
     left: 150px;
 }
 
+.teste_goldbach:hover {
+    transform: scale(1.20);
+}
+
+.teste_riemann:hover {
+    transform: scale(1.20);
+}
+
+.teste_gemeos:hover {
+    transform: scale(1.20);
+}
+
+.teste_desafios:hover {
+    transform: scale(1.20);
+    
+}
+
 .teste_goldbach {
     position: relative;
     top: 50px;
+    background-color: #3486e4;
+    border: 2px solid #0b126f;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 4px 4px 10px rgba(20, 28, 144, 0.4);
+    transition: transform 0.3s ease;
 }
 
 .teste_riemann {
     position: relative;
     top: 100px;
+    background-color: #3486e4;
+    border: 2px solid #0b126f;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 4px 4px 10px rgba(20, 28, 144, 0.4);
+    transition: transform 0.3s ease;
 }
 
 .teste_gemeos {
     position: relative;
     top: 150px;
+    background-color: #3486e4;
+    border: 2px solid #0b126f;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 4px 4px 10px rgba(20, 28, 144, 0.4);
+    transition: transform 0.3s ease;
 }
 
 .teste_desafios {
     position: relative;
     top: 200px;
+    background-color: #3486e4;
+    border: 2px solid #0b126f;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 4px 4px 10px rgba(20, 28, 144, 0.4);
+    transition: transform 0.3s ease;
 }
 
 .botao_teste {
@@ -518,12 +559,15 @@ button {
     background-color: #378afe;
     height: 40px;
     width: 300px;
+    border-radius: 10px ;
+    border-color: #0a1f44;
+    box-shadow: 4px 4px 10px rgba(20, 28, 144, 0.4);
 }
 
 button:hover {
     background-color: #1151bd;
 }
 
-input {
-    color: #5e96f8;
+input[type="radio"] {
+    accent-color: #376dc9;
 }
