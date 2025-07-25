@@ -10,8 +10,32 @@ gabarito = {
 }
 
 @app.route('/')
-def teste():
+def index():
     return render_template('index.html')
+
+# teste
+
+@app.route('/templates/goldbach')
+def goldbach():
+    return render_template('goldbach.html')
+
+@app.route('/templates/primos')
+def primos():
+    return render_template('primos.html')
+
+@app.route('/templates/reimann')
+def reimann():
+    return render_template('reimann.html')
+
+@app.route('/templates/teste')
+def teste():
+    return render_template('teste.html')
+
+@app.route('/templates/twinprimes')
+def twinprimes():
+    return render_template('twinprimes.html')
+
+# teste
 
 @app.route('/corrigir', methods=['POST'])
 def corrigir():
