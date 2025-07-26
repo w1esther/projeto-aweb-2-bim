@@ -4,26 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/static/css/menu.css">
+    <link rel="stylesheet" href="/static/css/pagina1.css">
     <title>Resultado do teste</title>
 </head>
 <body>
-    <h1>RESULTADO TESTE DE CONHECIMENTOS</h1>
-    <p>Você acertou {{ total }} de {{ resultado|length }} questões.
-    </p>
+    <ul id="menu">
+        <li><a href="/">Página Inicial </a></li>
+        <li> <a href="/goldbach">A conjectura de Goldbach</a></li>
+        <li><a href="/reimann">A hipótese de Riemann</a></li>
+        <li><a href="/twinprimes">A conjectura de Twin Primes</a></li>
+        <li><a href="/primos">Os números primos</a></li>
+        <li><a href="/teste">Teste de conhecimentos</a></li>
+    </ul>
 
-    <ul>
-    {% for q, info in resultado.items() %}
-      <li>
-        Questão {{ q }} — sua resposta: {{ info.resposta_usuario }} —
-        {% if info.acertou %}
-          <strong style="color:green">Correta</strong>
-        {% else %}
-          <strong style="color:red">Errada</strong>. Gabarito: {{ info.correta }}
-        {% endif %}
-      </li>
-    {% endfor %}
-  </ul>
+    <header class="titulo">
+      <h1>RESULTADO TESTE DE CONHECIMENTOS</h1>
+    </header>
 
-  <a href="/teste">Refazer</a>
+    <div class="resultado">
+      <p>Você acertou {{ total }} de {{ resultado|length }} questões.
+      </p>
+
+      <ul>
+      {% for q, info in resultado.items() %}
+        <li>
+          Questão {{ q }} — sua resposta: {{ info.resposta_usuario }} —
+          {% if info.acertou %}
+           <strong style="color:green">Correta</strong>
+          {% else %}
+            <strong style="color:red">Errada</strong>. Gabarito: {{ info.correta }}
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
 </body>
 </html>

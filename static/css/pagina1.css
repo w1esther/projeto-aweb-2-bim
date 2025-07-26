@@ -555,6 +555,7 @@ video:hover {
 }
 
 button {
+    margin: 20px;
     color: rgb(4, 22, 75);
     background-color: #378afe;
     height: 40px;
@@ -570,4 +571,31 @@ button:hover {
 
 input[type="radio"] {
     accent-color: #376dc9;
+}
+
+/* parte referente aos resultados do teste */
+
+.resultado {
+    width: 800px;
+    padding: 20px;
+    text-align: justify;
+    position: relative;
+    top: 100px;
+    left: 350px;
+    font-size: 20px;
+    background-color: #3486e4;
+    border: 2px solid #0b126f;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 4px 4px 10px rgba(20, 28, 144, 0.4);
+    transition: transform 0.3s ease;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* parte das referências das imagens: */
+
+#fermat_legenda {
+    position: relative;
+    left: 120px;
+    top: 245px;
 }
