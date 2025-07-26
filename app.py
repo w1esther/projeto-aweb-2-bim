@@ -15,23 +15,23 @@ def index():
 
 # teste
 
-@app.route('/templates/goldbach')
+@app.route('/goldbach')
 def goldbach():
     return render_template('goldbach.html')
 
-@app.route('/templates/primos')
+@app.route('/primos')
 def primos():
     return render_template('primos.html')
 
-@app.route('/templates/reimann')
+@app.route('/reimann')
 def reimann():
     return render_template('reimann.html')
 
-@app.route('/templates/teste')
+@app.route('/teste')
 def teste():
     return render_template('teste.html')
 
-@app.route('/templates/twinprimes')
+@app.route('/twinprimes')
 def twinprimes():
     return render_template('twinprimes.html')
 
