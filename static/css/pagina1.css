@@ -599,3 +599,15 @@ input[type="radio"] {
     left: 120px;
     top: 245px;
 }
+
+.logo {
+    border-radius: 250px;
+    height: 50px;
+    position: relative;
+    top: -208px;
+    left: 20px;
+}
+
+#logo1 {
+    margin: 18px;
+}
