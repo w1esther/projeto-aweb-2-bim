@@ -128,7 +128,7 @@ img:hover {
     position: absolute;
     left: 650px;
     padding: 100px;
-    top: 1240px;
+    top: 1290px;
 }
 
 .imgp41 {
@@ -184,7 +184,7 @@ img:hover {
     position: absolute;
     left: 650px;
     padding: 100px;
-    top: 2000px;
+    top: 2100px;
 }
 
 .imgp6 {
@@ -610,4 +610,72 @@ input[type="radio"] {
 
 #logo1 {
     margin: 18px;
+}
+
+#legenda_goldbach {
+    position: relative;
+    left: 1080px;
+    top: 570px;
+}
+
+#legenda_riemann {
+    position: relative;
+    left: 450px;
+    top: 770px;
+}
+
+#legenda_goldbach2 {
+    position: relative;
+    left: -500px;
+    top: 190px;
+    width: 300px;
+}
+
+#legenda_carta {
+    position: relative;
+    left: -270px;
+    top: 350px;
+    width: 300px;
+}
+
+#legenda_harald {
+    width: 300px;
+    position: relative;
+    left: -430px;
+    top: 570px;
+}
+
+#legenda_riemann2 {
+    width: 300px;
+    position: relative;
+    left: 250px;
+    top: 60px;
+}
+
+#funcao_zeta {
+    width: 300px;
+    position: relative;
+    left: 500px;
+    top: -90px;
+}
+
+#legenda_viggo {
+    position: relative;
+    width: 300px;
+    top: 420px;
+    left: -250px;
+}
+
+#legenda_yitang {
+    width: 300px;
+    position: relative;
+    left: 550px;
+    top: 270px;
+}
+
+#legenda_euclides {
+    width: 300px;
+    position: relative;
+    top: -740px;
+    left: -350px;
 }
