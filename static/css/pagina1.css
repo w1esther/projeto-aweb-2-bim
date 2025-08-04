@@ -56,8 +56,6 @@ h1 {
 }
 
 .img2 {
-    position: absolute;
-    top: 200px;
     margin-left: 1150px;
     margin-top: -900px;
     position: relative;
@@ -207,7 +205,6 @@ img:hover {
 }
 
 .imgp2 {
-    position: relative;
     margin-left: 1200px;
     margin-top: -800px;
     position: relative;
@@ -224,7 +221,6 @@ img:hover {
     position: relative;
     margin-left: 1200px;
     margin-top: -800px;
-    position: relative;
     top: 180px;
     width: 200px;
     right: 1100px;
@@ -274,7 +270,6 @@ tr, td, th {
 .imgharald {
     height: 200px;
     width: 300px;
-    position: relative;
     margin-left: -150px;
     position: relative;
     top: 560px;
