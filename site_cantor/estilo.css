@@ -1,0 +1,27 @@
+/* * {
+    border: 1px solid red;
+} */
+
+body {
+    background-color: rgb(136, 111, 81);
+    color: azure;
+    font-size: 30px;
+}
+
+#img_cantor {
+    position: relative;
+    left: -800px;
+    height: 750px;
+    top: -10px;
+    box-shadow: 4px 4px 10px rgba(84, 62, 33, 0.4);
+}
+
+h1{
+    background-color: rgb(212, 181, 140);
+    display: inline;
+    position: relative;
+    top: -450px;
+    left: 650px;
+    box-shadow: 4px 4px 10px rgba(84, 62, 33, 0.4);
+    border-radius: 2px;
+}

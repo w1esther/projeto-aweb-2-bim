@@ -44,13 +44,13 @@ def corrigir():
     for perguntas in gabarito:
         respostas_usuario[perguntas] = request.form.get(perguntas)
     
-    resultado = {}
+    total = {}
     acertos = 0
 
     for pergunta, resposta in respostas_usuario.items():
         correta = gabarito[pergunta]
         acertou = (resposta == correta)
-        resultado[pergunta] = {
+        total[pergunta] = {
             'resposta_usuario': resposta,
             'correta': correta,
             'acertou': acertou
@@ -59,4 +59,4 @@ def corrigir():
         if acertou:
             acertos += 1
         
-    return render_template('resultado.html', resultado=resultado, total=acertos)
+    return render_template('resultado.html', total=total, acertos=acertos)
