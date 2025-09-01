@@ -2,6 +2,39 @@
     border: 1px solid red;
 } */
 
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#menu {
+    list-style: none;
+    padding: 0;
+    text-align: right;
+    position: relative;
+    top: -760px;
+    background-color: #e5cc97;
+    box-shadow: 4px 4px 10px rgba(84, 62, 33, 0.4);
+}
+
+#menu li{
+    display: inline;
+    border-left: 2px solid #ffffff;
+}
+
+#menu li a{
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 20px;
+    font-family: Helvetica, sans-serif;
+}
+
+#menu li a:hover {
+    background-color: #774c01;
+}
+
 body {
     background-color: rgb(136, 111, 81);
     color: azure;
@@ -11,8 +44,8 @@ body {
 #img_cantor {
     position: relative;
     left: -800px;
-    height: 750px;
-    top: -10px;
+    height: 730px;
+    top: 30px;
     box-shadow: 4px 4px 10px rgba(84, 62, 33, 0.4);
     opacity: 0.7;
     border: 2px solid;
@@ -23,8 +56,10 @@ h1{
     background-color: rgb(212, 181, 140);
     display: inline;
     position: relative;
-    top: -450px;
+    top: -400px;
     left: 650px;
     box-shadow: 4px 4px 10px rgba(84, 62, 33, 0.4);
     border-radius: 2px;
 }
+
+
