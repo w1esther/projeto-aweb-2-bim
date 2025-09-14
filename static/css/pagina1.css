@@ -4,7 +4,6 @@
 
 body {
     background-image: linear-gradient(90deg, #4b9bf6, #a9defd);
-    overflow-x: hidden;
 }
 
 h1 {
@@ -83,8 +82,8 @@ h1 {
     width: 700px;
     text-align: justify;
     font-size: 20px;
-    margin-bottom: 25px;
-    line-height: 25px;
+    margin-bottom: 25px; /*afastar elementos verticalmente do que vem embaixo*/
+    line-height: 25px; /*espaço entre uma linha e outra*/
     color: #0a1f44;
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: relative;
